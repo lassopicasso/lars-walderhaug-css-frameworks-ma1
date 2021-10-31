@@ -1,0 +1,21 @@
+body {
+  background: getColor(light-grey);
+  font-size: 18px;
+  font-family: $font-primary;
+  color: getColor(primary);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.nav-brand,
+h1 {
+  font-family: $font-headings;
+}
+
+h1 {
+  margin: 30px;
+  text-align: center;
+  font-size: 30px;
+}

@@ -1,0 +1,13 @@
+$font-primary: "Archivo Narrow", sans-serif;
+$font-headings: "open sans", sans-serif;
+
+$colors: (
+  primary: #463f3a,
+  white: #f4f3ee,
+  ultra-white: #ffffff,
+  light-grey: #e5e5e5,
+);
+
+@function getColor($color) {
+  @return map-get($colors, $color);
+}

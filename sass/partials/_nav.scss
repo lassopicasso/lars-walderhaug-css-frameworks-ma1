@@ -1,0 +1,10 @@
+.navbar {
+  text-transform: uppercase;
+  &-brand {
+    font-size: 2em;
+  }
+  background: getColor(white);
+  a.active {
+    color: $secondary !important;
+  }
+}

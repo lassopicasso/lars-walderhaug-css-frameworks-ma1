@@ -1,0 +1,23 @@
+body {
+  width: 100%;
+  margin: auto;
+}
+
+.container {
+  .row {
+    row-gap: 20px;
+    &__element--border {
+      border: 5px solid $secondary !important;
+      background: getColor(ultra-white) !important;
+    }
+    &__element--background {
+      background: $secondary !important;
+      border: 5px solid getColor(ultra-white);
+    }
+    &__element {
+      height: 263px;
+      border-radius: 15px;
+      background-color: getColor(white);
+    }
+  }
+}
